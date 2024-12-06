@@ -1,0 +1,84 @@
+# Query: safe
+# ContextLines: 1
+
+30 találat - 24 files
+
+README.md:
+  1: - [Safe](packages/gnosis/README.md)
+
+tsconfig.json:
+  1:     // "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+
+docs/package.json:
+  1:     "@safe-global/safe-apps-sdk": "^8.1.0",
+
+docs/src/routes/docs/[...1]overview/[...1]introduction/+page.md:
+  1: - [Safe](../../wallets/gnosis.md#install)
+
+docs/src/routes/docs/[...3]modules/[...1]core/+page.md:
+  1:       '@safe-global/safe-apps-provider'
+
+docs/src/routes/docs/[...3]modules/[...7]vue/+page.md:
+  1:     include: ['@safe-global/safe-apps-sdk', '@safe-global/safe-apps-provider']
+
+docs/src/routes/docs/[...4]wallets/[...12]gnosis/+page.md:
+  1: Check [Safe docs](https://github.com/safe-global/safe-contracts/blob/a6504a9afdeac186a8cdb29ad68b189523c80eda/docs/safe_tx_gas.md) for full detail as it can be a bit confusing.
+
+docs/src/routes/docs/[...4]wallets/[...14]injected/+page.md:
+  1: - Safeheron - _Desktop_
+
+docs/src/routes/docs/[...4]wallets/[...33]web3auth/+page.md:
+  1:   adapterListener: SafeEventEmitter
+
+docs/src/routes/docs/[...6]resources/[...2]troubleshooting/+page.md:
+  1: Desktop users may also not see their browser injected wallets if they have multiple wallets installed. Some users may have installed multiple wallets, such as Coinbase Wallet, SafePal Wallet or Trust Wallet, in addition to MetaMask. Many times if a user has multiple wallets installed on their browser there is a collision in the space that the dapps use to detect the wallets and in some occasions only one wallet will be available.
+
+docs/src/routes/examples/[...1]connect-wallet/+page.md:
+  1:   safe,
+
+examples/with-nextjs-13/web3-onboard.ts:
+  1:     safe,
+
+examples/with-vite-react/src/web3-onboard.ts:
+  1:     safe,
+
+packages/core/README.md:
+  1:       '@safe-global/safe-apps-provider'
+
+packages/demo/package.json:
+  1:     "@safe-global/safe-apps-sdk": "^8.1.0",
+
+packages/demo/src/App.svelte:
+  1:       safe,
+
+packages/gnosis/package.json:
+  1:   "description": "Safe module for connecting to Web3-Onboard. Web3-Onboard makes it simple to connect Ethereum hardware and software wallets to your dapp. Features standardised spec compliant web3 providers for all supported wallets, framework agnostic modern javascript UI with code splitting, CSS customization, multi-chain and multi-account support, reactive wallet state subscriptions and real-time transaction state change notifications.",
+
+packages/gnosis/README.md:
+  1: Check [Safe docs](https://github.com/safe-global/safe-contracts/blob/a6504a9afdeac186a8cdb29ad68b189523c80eda/docs/safe_tx_gas.md) for full detail as it can be a bit confusing.
+
+packages/gnosis/src/index.ts:
+  1:             const { SafeAppProvider } = await import(
+
+packages/injected/README.md:
+  1: - Safeheron - _Desktop_
+
+packages/injected/src/constants.ts:
+  1:   safeheron: 'Safeheron',
+
+packages/injected/src/types.ts:
+  1:   Safeheron = 'isSafeheron',
+
+packages/injected/src/wallets.ts:
+  1: const safepal: InjectedWalletModule = {
+
+packages/web3auth/README.md:
+  1:"markdownlint.lintWorkspaceGlobs": [
+  "**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+  "!**/*.code-search",
+  "!**/bower_components",
+  "!**/node_modules",
+  "!**/.git",
+  "!**/vendor",
+  ""
+]   adapterListener: SafeEventEmitter
